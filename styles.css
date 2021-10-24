@@ -1,0 +1,60 @@
+body{
+  background-color: darkcyan; 
+}
+
+
+
+
+.grid-item{
+    border: 1px solid #000;
+    padding: 3px;
+ 
+}
+
+.color-class{
+    background-color: black;
+}
+
+:root {
+    --grid-cols: 1;
+    --grid-rows: 1;
+  }
+  
+#container{
+
+  padding: 15px;
+  display: grid;
+  justify-content: center;
+  margin: auto;
+  height: 850px;
+  width: 850px;
+  grid-template-rows: repeat(var(--grid-rows), 1fr);
+  grid-template-columns: repeat(var(--grid-cols), 1fr);
+
+  
+  }
+
+  #button{
+    display: flex;
+    justify-content: center;
+  
+  }
+
+  #reset-button{
+    border: 3px solid black;
+    width: 80px;
+    background-color: cornflowerblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 4px;
+   
+  }
+  
+  h1{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    color: black;
+  }
+  
+
